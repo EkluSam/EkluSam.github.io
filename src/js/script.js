@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
       window.requestAnimationFrame(step);
   
-      // Mettre à jour la classe 'active' pour les liens cliqués (sauf "Samuel Eklu")
+      
       if (this.innerText !== "Samuel Eklu") {
         var activeLink = document.querySelector('.navbar-nav .nav-link.active');
         if (activeLink) {
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
     smoothScrollToSection(heroSection);
   });
   
-  // Fonction pour effectuer le scroll doux vers une section spécifique
+ 
   function smoothScrollToSection(section) {
     var startPosition = window.pageYOffset;
     var targetPosition = section.offsetTop - 35;
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.navbar-brand').classList.add('active');
   }
   
-  // Fonction de facilité d'interpolation pour les animations d'espacement régulier
+
   function easeInOutCubic(t, b, c, d) {
     t /= d / 2;
     if (t < 1) return c / 2 * t * t * t + b;
