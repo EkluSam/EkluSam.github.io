@@ -1,251 +1,1507 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Samuel Eklu - Portfolio</title>
-    <link rel="stylesheet" href="resources/css/style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./css/skins/color-1.css" /> -->
+    <link rel="stylesheet" href="./css/style-switcher.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <!-- style switcher  -->
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      title="color-1"
+      href="./css/skins/color-1.css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      title="color-2"
+      href="./css/skins/color-2.css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      title="color-3"
+      href="./css/skins/color-3.css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      title="color-4"
+      href="./css/skins/color-4.css"
+      
+    />
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      title="color-5"
+      href="./css/skins/color-5.css"
+      disabled
+    />
   </head>
-  <body>
-    <section id="hero">
-      <div>
-          <nav class="navbar">
-            <a href="#hero" class="navbar-brand">Samuel Eklu</a>
-              <div class="navbar-nav">
-                <a href="#home" class="nav-link active"></a>
-                <a href="#modules" class="nav-link">Modules</a>
-                <a href="#projets" class="nav-link">Projets</a>
-              </div>
-          </nav>
+  <body class="dark">
+    <!-- preloader start -->
+
+    <div class="preloader">
+      <div class="preloader__ring">
+        <div class="preloader__sector">L</div>
+        <div class="preloader__sector">o</div>
+        <div class="preloader__sector">a</div>
+        <div class="preloader__sector">d</div>
+        <div class="preloader__sector">i</div>
+        <div class="preloader__sector">n</div>
+        <div class="preloader__sector">g</div>
+        <div class="preloader__sector">.</div>
+        <div class="preloader__sector">.</div>
+        <div class="preloader__sector">.</div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
       </div>
-      <div class="intro">
-        <div class="intro-image">
-          <img src="userContent/profile.jpg" width="240" height="240" alt="Profile Picture">
-        </div>
-        <div class="intro-text">
-          <p>
-            <strong>NOM:</strong> Samuel Eklu<br>
-            <strong>AGE:</strong> 19<br>
-            <strong>ADRESSE:</strong> Lausanne, Suisse<br>
-            <strong>E-MAIL:</strong><a HREF="mailto:pn88doo@eduvaud.ch" id="mail"> pn88doo@eduvaud.ch</a> <br>
-            <strong>TEL:</strong> +41 79 302 19 54<br>
-            <a href="https://github.com/EkluSam" target="_blank" rel="noopener noreferrer"><img src="userContent/github.svg" width="36"></img></a><br>
-            <a href="userContent/Samuel_EKLU_CV.pdf" download=""><button id="cvButton">Télécharger le CV</button></a>
-          </p>
-        </div>
+      <div class="preloader__ring">
+        <div class="preloader__sector">L</div>
+        <div class="preloader__sector">o</div>
+        <div class="preloader__sector">a</div>
+        <div class="preloader__sector">d</div>
+        <div class="preloader__sector">i</div>
+        <div class="preloader__sector">n</div>
+        <div class="preloader__sector">g</div>
+        <div class="preloader__sector">.</div>
+        <div class="preloader__sector">.</div>
+        <div class="preloader__sector">.</div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
+        <div class="preloader__sector"></div>
       </div>
-    </section>
-    <section id="modules">
+    </div>
+
+    <!-- praloader end -->
+
+    <header class="header">
       <div class="container">
-        <h2>Modules</h2>
-        Voici tous les modules ICT que j'ai effectué ces dernières années :<br>
-        (Cliquez pour accéder au descriptif du module)
-        <div class="module-grid">
-          <a href="https://www.modulbaukasten.ch/module/100/3/fr-FR?title=Distinguer,-pr%C3%A9parer-et-%C3%A9valuer-des-donn%C3%A9es" target="_blank" class="module">
-            <h3>Module 100</h3>
-            Gestion des données
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/101/3/fr-FR?title=Webauftritt-erstellen-und-ver%C3%B6ffentlichen" target="_blank" class="module">
-            <h3>Module 101</h3>
-            Site web statique
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/104/3/fr-FR?title=Datenmodell-implementieren" target="_blank" class="module">
-            <h3>Module 104</h3>
-            Implémenter un modèle de données
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/105/3/fr-FR?title=Datenbanken-mit-SQL-bearbeiten" target="_blank" class="module">
-            <h3>Module 105</h3>
-            Traiter une base de donnée SQL
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/114/4/fr-FR?title=Codierungs-,-Kompressions--und-Verschl%C3%BCsselungsverfahren-einsetzen" target="_blank" class="module">
-            <h3>Module 114</h3>
-            Systèmes d'encryptage, de compression et de codification
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/117/4/fr-FR?title=Informatik--und-Netzinfrastruktur-f%C3%BCr-ein-kleines-Unternehmen-realisieren" target="_blank" class="module">
-            <h3>Module 117</h3>
-            Bases de données relationnelles
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/120/3/fr-FR?title=Benutzerschnittstellen-implementieren" target="_blank" class="module">      
-            <h3>Module 120</h3>
-            Interfaces graphiques d'applications
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/122/3/fr-FR?title=Abl%C3%A4ufe-mit-einer-Scriptsprache-automatisieren" target="_blank" class="module">
-            <h3>Module 122</h3>
-            Automatiser des procédures à l'aide de scripts Powershell
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/123/2/fr-FR?title=Serverdienste-in-Betrieb-nehmen" target="_blank" class="module">
-            <h3>Module 123</h3>
-            Activer les services d'un serveur
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/126/3/fr-FR?title=Peripherieger%C3%A4te-im-Netzwerkbetrieb-einsetzen" target="_blank" class="module">
-            <h3>Module 126</h3>
-            Installer des périphériques en réseau
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/127/3/fr-FR?title=Server-betreiben" target="_blank" class="module">
-            <h3>Module 127</h3>
-            Assurer l'exploitation de serveurs 
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/129/3/fr-FR?title=LAN-Komponenten-in-Betrieb-nehmen" target="_blank" class="module">
-            <h3>Module 129</h3>
-            Mettre en service des composants réseaux
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/133/3/fr-FR?title=Web-Applikation-mit-Session-Handling-realisieren" target="_blank" class="module">
-            <h3>Module 133</h3>
-            Réaliser des applications Web en Session-Handling
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/143/3/fr-FR?title=Implanter-un-syst%C3%A8me-de-sauvegarde-et-de-restauration" target="_blank" class="module">
-            <h3>Module 143</h3>
-            Implanter un système de sauvegarde et de restauration
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/146/3/fr-FR?title=Internetanbindung-f%C3%BCr-ein-Unternehmen-realisieren" target="_blank" class="module">
-            <h3>Module 146</h3>
-            Relier une entreprise à Internet
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/151/3/fr-FR?title=Datenbanken-in-Web-Applikation-einbinden" target="_blank" class="module">
-            <h3>Module 151</h3>
-            Intégrer des bases de données dans des applications Web
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/158/3/fr-FR?title=Planifier-et-ex%C3%A9cuter-la-migration-de-logiciels" target="_blank" class="module">
-            <h3>Module 158</h3>
-            Planifier et exécuter la migration de logiciels
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/159/3/fr-FR?title=Configurer-et-synchroniser-le-service-d%E2%80%99annuaire" target="_blank" class="module">
-            <h3>Module 159</h3>
-            Configurer et synchroniser le service d'annuaire
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/182/3/fr-FR?title=Impl%C3%A9menter-la-s%C3%A9curit%C3%A9-syst%C3%A8me" target="_blank" class="module">
-            <h3>Module 182</h3>
-            Implémenter la sécurité système
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/214/3/fr-FR?title=Benutzer%2Finnen-im-Umgang-mit-Informatikmitteln-instruieren" target="_blank" class="module">
-            <h3>Module 214</h3>
-            Instruire les utilisateurs sur le comportement avec des moyens informatiques
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/226b/4/fr-FR?title=Impl%C3%A9menter-orient%C3%A9-objets-(avec-h%C3%A9r%C3%A9dit%C3%A9)" target="_blank" class="module">
-            <h3>Module 226 A / B</h3>
-            Implémenter, tester, et documenter un des programmes orienté objets (avec et sans hérédité)
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/239/3/fr-FR?title=Mettre-en-service-un-serveur-Web" target="_blank" class="module">
-            <h3>Module 239</h3>
-            Mettre en service un serveur Web
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/302/3/fr-FR?title=Fortgeschrittene-Funktionen-von-Office-Werkzeugen-nutzen" target="_blank" class="module">
-            <h3>Module 302</h3>
-            Utiliser les fonctions avancées d'Office
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/304/2/fr-FR?title=Einzelplatz-Computer-in-Betrieb-nehmen" target="_blank" class="module">
-            <h3>Module 304</h3>
-            Installer et configurer un ordinateur mono-poste
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/305/2/fr-FR?title=Betriebssysteme-installieren,-konfigurieren-und-administrieren" target="_blank" class="module">
-            <h3>Module 305</h3>
-            Installer, configurer et administrer un système d'exploitation
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/306/4/fr-FR?title=Kleinprojekte-im-eigenen-Berufsumfeld-abwickeln" target="_blank" class="module">
-            <h3>Module 306</h3>
-            Réaliser de petits projets dans son propre environnement professionnel
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/340/3/fr-FR?title=Virtualiser-une-infrastructure-informatique" target="_blank" class="module">
-            <h3>Module 340</h3>
-            Virtualiser une infrastructure informatique 
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/403/1/fr-FR?title=Programmabl%C3%A4ufe-prozedural-implementieren" target="_blank" class="module">
-            <h3>Module 403</h3>
-            Implémenter de manière procédurale des déroulements de programme
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/404/1/fr-FR?title=Objektbasiert-programmieren-nach-Vorgabe" target="_blank" class="module">
-            <h3>Module 404</h3>
-            Interpréter les directives et programmer orienté objets
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/431/2/fr-FR?title=Auftr%C3%A4ge-im-eigenen-Berufsumfeld-selbstst%C3%A4ndig-durchf%C3%BChren" target="_blank" class="module">
-            <h3>Module 431</h3>
-            Exécuter des mandats de manière autonome dans son propre environnement professionnel
-          </a>
-          <a href="https://www.modulbaukasten.ch/module/437/1/fr-FR?title=Travailler-dans-le-support" target="_blank" class="module">
-            <h3>Module 437</h3>
-            Travailler dans le support
-          </a>
+        <div class="row justify-content-between">
+          <div class="logo">
+            <a href="index.html">J</a>
+          </div>
+          <div class="hamburger-btn outer-shadow hover-in-shadow">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- navigation menu -->
+    <nav class="nav-menu">
+      <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
+      <div class="nav-menu-inner">
+        <ul>
+          <li>
+            <a href="#home" class="link-item inner-shadow active">home</a>
+          </li>
+          <li>
+            <a href="#about" class="link-item outer-shadow hover-in-shadow"
+              >a propos</a
+            >
+          </li>
+          <li>
+            <a href="#services" class="link-item outer-shadow hover-in-shadow"
+              >modules</a
+            >
+          </li>
+          <li>
+            <a href="#portfolio" class="link-item outer-shadow hover-in-shadow"
+              >projets</a
+            >
+          </li>
+          <!-- <li>
+            <a
+              href="#testimonial"
+              class="link-item outer-shadow hover-in-shadow"
+              >testimonial</a
+            >
+          </li> -->
+          <li>
+            <a href="#contact" class="link-item outer-shadow hover-in-shadow"
+              >contacts</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- copyright text -->
+      <p class="copyright-text">&copy;EkluSam</p>
+    </nav>
+    <div class="fade-out-effect"></div>
+    <!-- navigation menu end-->
+    <!-- home section -->
+    <section class="home-section section active" id="home">
+      <!-- effect wrap start -->
+      <div class="effect-wrap">
+        <div class="effect effect-1"></div>
+        <div class="effect effect-2">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="effect effect-3"></div>
+        <div class="effect effect-4"></div>
+        <div class="effect effect-5">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <!-- effect wrap end -->
+      <div class="container">
+        <div class="row full-screen align-items-center">
+          <div class="home-text">
+            <p>Bonjour</p>
+            <h2>Samuel Eklu</h2>
+            <h1>Étudiant & Développeur junior</h1>
+            <a
+              href="#about"
+              class="link-item btn-1 outer-shadow hover-in-shadow"
+              >Plus d'infos</a
+            >
+          </div>
+          <div class="home-img">
+            <div class="img-box inner-shadow">
+              <img src="./images/photo.jpeg" class="outer-shadow" alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <section id="projets">
-      <div class="projets-container">
-        <h2>Projets</h2>
-        Voici quelques-uns de mes projets réalisé pendant ma formation :
-        <div class="projet-grid">
-          <div class="projet">
-            <h3>Projet Web (Module 101)</h3>
-            <p>Créer un site web statique qui liste toutes les cartes d'un jeu</p>
+    <!-- home section end -->
+
+    <!-- about section start -->
+    <section class="about-section section" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-heading="Plus d'infos">Samuel Eklu</h2>
           </div>
-          <div class="projet">
-            <h3>Powershell (Module 122)</h3>
-            <p>Créer un script effectuant des tâches sur des postes distants en utilisant du remoting</p>
+        </div>
+        <div class="row">
+          <div class="about-img">
+            <div class="img-box inner-shadow">
+              <img src="./images/photo.jpeg" class="outer-shadow" alt="" />
+            </div>
+            <!-- social links -->
+            <div class="social-links">
+              <a href="https://github.com/EkluSam" target="_blank" rel="noopener noreferrer" class="outer-shadow hover-in-shadow"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/samuel-eklu-3127742a0/" target="_blank" rel="noopener noreferrer" class="outer-shadow hover-in-shadow"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+            <!-- social links end -->
           </div>
-          <div class="projet">
-            <h3>Projet PasswordManager 2000</h3>
-            <p>Gestionnaire de mot de passe que j'ai appelé PasswordManager 2000</p>
+          <div class="about-info">
+            <p>
+              <span>Bonjour! Je m'appelle Samuel Eklu.</span>
+              
+            </p>
+            <p>
+              Actuellement étudiant, je mʼépanouis
+              dans des environnements dynamiques
+              qui me permettent d'évoluer et d'en apprendre toujours plus sur 
+              le métier de développeur.
+            </p>
+            <p>
+              <span>Mes hobbys<br></span>
+              Sport :<br>
+              Basketball<br>
+              Dodgeball<br>
+              Badminton<br><br>
+
+              Divertissement :<br>
+              Jeux vidéos<br>
+              Lecture<br>
+              L'actualité dans l'E-Sport<br><br>
+
+              Langues :<br>
+              Français (Langue maternelle)<br>
+              Anglais (Niveau B2)<br>
+              Allemand (Notions scolaires)
+            </p>
+            <a href="files/Samuel_EKLU_CV.pdf" class="btn-1 outer-shadow hover-in-shadow"
+              >Télécharger mon CV</a
+            >
+            <a
+              href="#contact"
+              class="link-item btn-1 outer-shadow hover-in-shadow"
+              >Contact</a
+            >
           </div>
-          <div class="projet">
-            <h3>Projet Web (Module 151)</h3>
-            <p>Créer un site web de recettes de cuisine en implémentant une base de données</p>
+        </div>
+
+        <!-- about tabs start -->
+        <div class="row">
+          <div class="about-tabs">
+            <span class="tab-item outer-shadow active" data-target=".skills"
+              >Compétences</span
+            >
+            <span class="tab-item" data-target=".experience">Expérience</span>
+            <span class="tab-item" data-target=".education">Éducation / certificats</span>
           </div>
-          <div class="projet">
-            <h3>Projet VoIP</h3>
-            <p>Mettre en place une infrastructure réseau afin d'effectuer des appels téléphoniques basé sur la technologie Voice Over IP</p>
+        </div>
+        <!-- about tabs end -->
+        <!-- skills start -->
+        <div class="row">
+          <div class="skills tab-content active">
+            <div class="row">
+              <!-- skill item start -->
+              <div class="skill-item">
+                <p>Python</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(86% - 14px)">
+                    <span>86%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- skill item end -->
+              <!-- skill item start -->
+              <div class="skill-item">
+                <p>C#</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(75% - 14px)">
+                    <span>75%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- skill item end -->
+              <!-- skill item start -->
+              <div class="skill-item">
+                <p>Javascript</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(65% - 14px)">
+                    <span>65%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- skill item end -->
+               <!-- skill item start -->
+               <div class="skill-item">
+                <p>PHP</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(65% - 14px)">
+                    <span>65%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- skill item end -->
+              <!-- skill item start -->
+              <div class="skill-item">
+                <p>HTML</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(96% - 14px)">
+                    <span>96%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- skill item end -->
+              
+              <!-- skill item start -->
+              <div class="skill-item">
+                <p>CSS</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(75% - 14px)">
+                    <span>75%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- skill item end -->
+              <!-- skill item start -->
+              <div class="skill-item">
+                <p>Bootstrap</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(75% - 14px)">
+                    <span>75%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- skill item end -->
+              <!-- skill item start -->
+              <div class="skill-item">
+                <p>SQL</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(60% - 14px)">
+                    <span>60%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- skill item end -->
+              
+            </div>
           </div>
-          <div class="projet">
-            <h3>Projet Fitness Dating</h3>
-            <p>Créer un site web de rencontre visant un public de sportifs / coach sportifs</p>
+        </div>
+        <!-- skills end -->
+        <!-- experince start -->
+        <div class="row">
+          <div class="experience tab-content">
+            <div class="row">
+              <div class="timeline">
+                <div class="row">
+                  <!-- timeline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-briefcase icon"></i>
+                      <span>Décembre 2021</span>
+                      <h3>Stages en informatique / électronique</h3>
+                      <h4>ETML - (École technique Ecole des métiers, Lausanne)</h4>
+                      <p>
+                        Cette première expérience ma poussé à étudier l'informatique à l'ETML.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- timeline item end -->
+                  <!-- timeline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-briefcase icon"></i>
+                      <span>Février 2024 - Aujourd'hui</span>
+                      <h3>Développeur Stagiaire</h3>
+                      <h4>EPFL - (École polytechnique fédérale de Lausanne)</h4>
+                      <p>
+                        Cette expérience me permet de mettre en pratique la théorie, de fortifier mes acquis et surtout
+                        d'apprendre à devenir un bon développeur. 
+                      </p>
+                    </div>
+                  </div>
+                  <!-- timeline item end -->
+                  <!-- duplique pour ajouter une exp-->
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="projet">
-            <h3>Projet Cavalier</h3>
-            <p>Faire le jeu du cavalier en C# console et C# forms</p>
+        </div>
+        <!-- experince end -->
+        <!-- education start -->
+        <div class="row">
+          <div class="education tab-content">
+            <div class="row">
+              <div class="timeline">
+                <div class="row">
+                  <!-- timeline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-graduation-cap icon"></i>
+                      <span>2020</span>
+                      <h3>Certificat de fin d'études secondaires <br>voie générale</h3>
+                      <p>
+                        Mathématique 1, Français 2, Allemand 2<br>
+                        Option choisie : MITIC (Médias, image, technologies de l'information et de la communication).
+                      </p>
+                    </div>
+                  </div>
+                  <!-- timeline item end -->
+                  <!-- timeline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-graduation-cap icon"></i>
+                      <span>2020</span>
+                      <h3>Prix de la ville de Lausanne, Prix de l'OCOM MITIC</h3>
+                      <p>
+                        Un prix donné par la ville aux élèves ayant des notes remarquables dans l'option MITIC.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- timeline item end -->
+                  <!-- timeline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-graduation-cap icon"></i>
+                      <span>2021</span>
+                      <h3>Certificat de fin d'études secondaires <br>voie générale (Classe de raccordement 1)</h3>
+                      <p>
+                      Mathématique 2, Français 2, Allemand 2<br>
+                      Une année supplémentaire qui me permet d'accéder à l'École de culture générale.                        
+                      </p>
+                    </div>
+                  </div>
+                  <!-- timeline item end -->
+                  <!-- timeline item start -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-graduation-cap icon"></i>
+                      <span>2021 - Aujourd'hui (fin prévue en 2025)</span>
+                      <h3>Apprentissage d'informaticien d'entreprise CFC</h3>
+                      <p>
+                      Cet apprentissage m'a permis d'apprendre plusieurs aspects de l'informatique,
+                      en passant par de l'infrastucture réseau jusqu'au développement d'applications. 
+                      </p>
+                    </div>
+                  </div>
+                  <!-- timeline item end -->
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="projet">
-            <h3>Projet Linux</h3>
-            <p>Créer un environnement multi-users sous Linux</p>
+        </div>
+
+        <!-- education end -->
+      </div>
+    </section>
+    <!-- about section end -->
+    <!-- services start -->
+
+    <section class="service-section section" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-heading="Source : (modulbaukasten.ch)">Liste des modules que j'ai suivi<br></h2>
           </div>
-          <div class="projet">
-            <h3>Projet Bureautique</h3>
-            <p>Créer un Portfolio format Word</p>
+        </div>
+        <div class="row">
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-search"></i>
+              </div>
+              <h3>Module 100</h3>
+              <p>
+                Qu'est qu'une donnée ?<br>
+                Gestion des données.
+              </p>
+            </div>
           </div>
-          <div class="projet">
-            <h3>Projet SpaceInvavder</h3>
-            <p>Créer le jeu SpaceInvader en C# Console</p>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>Module 101</h3>
+              <p>
+                Créer une application web statique.
+              </p>
+            </div>
           </div>
-          <div class="projet">
-            <h3>Projet Vennes</h3>
-            <p>Organiser toutes les salles du deuxième batiment scolaire ETML situé à Vennes</p>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-search"></i>
+              </div>
+              <h3>Module 104</h3>
+              <p>
+                Implémenter un modèle de données.
+              </p>
+            </div>
           </div>
-          <div class="projet">
-            <h3>Projet MQTT</h3>
-            <p>S'informer sur le protocole de messagerie MQTT et le tester dans un environnement virtuel</p>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-database"></i>
+              </div>
+              <h3>Module 105</h3>
+              <p>
+                Traiter une base donnée SQL.
+              </p>
+            </div>
           </div>
-          <div class="projet">
-            <h3>Mon Portfolio Personnel</h3>
-            <p>Créer un Portfolio Web qui réuni tous les modules vu pendant ma formation</p>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-lock"></i>
+              </div>
+              <h3>Module 114</h3>
+              <p>
+                Systèmes d'encryptage, de compression et de codification.
+              </p>
+            </div>
           </div>
-          <div class="projet">
-            <h3>Projet de Virtualisation</h3>
-            <p>Virtualiser une infrastructure informatique sur VMWare</p>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-database"></i>
+              </div>
+              <h3>Module 117</h3>
+              <p>
+                Base de données relationnelles.
+              </p>
+            </div>
           </div>
-          <div class="projet">
-            <h3>Projet Infrastructure Linux + Windows</h3>
-            <p>Monter une infrastructure (Serveur Windows2022, Serveur Debian avec les clients Windows/Linux/Fedora)</p>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-desktop"></i>
+              </div>
+              <h3>Module 120</h3>
+              <p>
+                Interfaces graphiques d'applications.
+              </p>
+            </div>
           </div>
-          <div class="projet">
-            <h3>Projet de Migration (Module 158)</h3>
-            <p>Migration automatique des données d'un poste Windows 7 vers Windows 11</p>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>Module 122</h3>
+              <p>
+                Automatiser des procédures à l'aide de scripts Powershell.
+              </p>
+            </div>
           </div>
-          <div class="projet">
-            <h3>Projet Innoweeks (Hackathon)</h3>
-            <p>Développer une solution informatisé pour de la surveillance bienveillante</p> 
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-server"></i>
+              </div>
+              <h3>Module 123</h3>
+              <p>
+                Activer les services d'un serveur.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-network-wired"></i>
+              </div>
+              <h3>Module 126</h3>
+              <p>
+                Installer des périphériques en réseau.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-server"></i>
+              </div>
+              <h3>Module 127</h3>
+              <p>
+                Assurer l'exploitation de serveurs.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-network-wired"></i>
+              </div>
+              <h3>Module 129</h3>
+              <p>
+                Mettre en service des compostants réseaux.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>Module 133</h3>
+              <p>
+                Réaliser des applications Web en Session-Handling.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-sd-card"></i>
+              </div>
+              <h3>Module 143</h3>
+              <p>
+                Implanter un système de sauvegarde et de restauration.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-network-wired"></i>
+              </div>
+              <h3>Module 146</h3>
+              <p>
+                Relier une entreprise à Internet.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-database"></i>
+              </div>
+              <h3>Module 151</h3>
+              <p>
+                Intégrer des bases de données dans des applications Web.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-sitemap"></i>
+              </div>
+              <h3>Module 158</h3>
+              <p>
+                Planifier et exécuter la migration de logiciels.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-server"></i>
+              </div>
+              <h3>Module 159</h3>
+              <p>
+                Configurer et synchroniser le service d'annuaire.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-eye"></i>
+              </div>
+              <h3>Module 182</h3>
+              <p>
+                Implémenter la sécurité système.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-user"></i>
+              </div>
+              <h3>Module 214</h3>
+              <p>
+                Instruire les utilisateurs sur le comportement avec des moyens informatique.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>Module 226 A / B</h3>
+              <p>
+                Implémenter, tester et documenter un des programmes orienté objets (avec et sans hérédité).
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-server"></i>
+              </div>
+              <h3>Module 239</h3>
+              <p>
+                Mettre en service un serveur Web.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-desktop"></i>
+              </div>
+              <h3>Module 302</h3>
+              <p>
+                Utiliser les fonctions avancées d'Office.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-desktop"></i>
+              </div>
+              <h3>Module 304</h3>
+              <p>
+                Installer et configuer un ordinateur mono-poste.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-desktop"></i>
+              </div>
+              <h3>Module 305</h3>
+              <p>
+                Installer, configurer et administrer un système d'exploitation.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-database"></i>
+              </div>
+              <h3>Module 306</h3>
+              <p>
+                Réaliser de petits projets dans son propre environnement professionnel.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-server"></i>
+              </div>
+              <h3>Module 340</h3>
+              <p>
+                Virtualiser une infrastructure informatique.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>Module 403</h3>
+              <p>
+                Implémenter de manière procédurale des déroulements de programmes.
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>Module 404</h3>
+              <p>
+                Interpréter les directives et programmer en orienté objets
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-user-tie"></i>
+              </div>
+              <h3>Module 431</h3>
+              <p>
+                Exécuter des mandats de manière autonome dans son propre environnement professionnel
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+          <!-- service item start -->
+          <div class="service-item">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-phone"></i>
+              </div>
+              <h3>Module 437</h3>
+              <p>
+                Travailler dans le support
+              </p>
+            </div>
+          </div>
+          <!-- service item end -->
+        </div>
+      </div>
+    </section>
+
+    <!-- services end -->
+
+    <!-- portfolio section start-->
+    <section class="portfolio-section section" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-heading="Projets">Projets sur lesquelles j'ai travaillé</h2>
+          </div>
+        </div>
+        <!-- portfolio filter start -->
+        <div class="row">
+          <div class="portfolio-filter">
+            <span class="filter-item outer-shadow active" data-target="all"
+              >all</span
+            >
+          </div>
+        </div>
+        <!-- portfolio filter end -->
+        <!-- portfolio items start -->
+        <div class="row portfolio-items">
+          <!-- portfolio item start -->
+          <div class="portfolio-item" data-category="application web">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-img">
+                <img
+                  src="./images/portfolio/thumb/project-1.png"
+                  alt=""
+                  data-screenshots="./images/portfolio/thumb/project-1.png"
+                />
+                <!-- view project btn -->
+                <span class="view-project">Voir le projet</span>
+              </div>
+              <p class="portfolio-item-title">IC-Services <span>@EPFL</span></p>
+              <!-- portfolio item details start -->
+              <div class="portfolio-item-details">
+                <div class="row">
+                  <div class="description">
+                    <h3>Résumé :</h3>
+                    <p>
+                      Application web qui permet de gérer des assets utilisés par le service informatique de la Faculté IC. (IC-IT)
+                      Elle inclut la gestion d'une API, d'une base de donnée ainsi que la génération et l'exportation de fichier Excels.
+                    </p>
+                  </div>
+                  <div class="info">
+                    <h3>Infos</h3>
+                    <ul>
+                      <li>Platforme - <span>GitLab</span></li>
+                      <li>Outils - <span>HTML, CSS, JavaScript, Django (Python), PostgreSQL, Kubernetes</span></li>
+                      <li>
+                        Page -
+                        <span
+                          ><a
+                            href="https://ic-services.epfl.ch/"
+                            target="blank"
+                            rel="noopener noreferrer"
+                            >Lien</a
+                          ></span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item details end -->
+            </div>
+          </div>
+          <!-- portfolio item end -->
+          <!-- portfolio item start -->
+          <div class="portfolio-item" data-category="application">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-img">
+                <img
+                  src="./images/portfolio/thumb/project-2.png"
+                  alt=""
+                  data-screenshots="./images/portfolio/large/project-2/1.png,./images/portfolio/large/project-2/2.png"
+                />
+                <!-- view project btn -->
+                <span class="view-project">Voir le projet</span>
+              </div>
+              <p class="portfolio-item-title">
+                PasswordManager 2000 <span>@ETML</span>
+              </p>
+              <!-- portfolio item details start -->
+              <div class="portfolio-item-details">
+                <div class="row">
+                  <div class="description">
+                    <h3>Résumé :</h3>
+                    <p>
+                      Gestionnaire de mot de passe.<br>
+                      Application créé pendant ma 1ère année à l'ETML dans le cadre du projet DEMOMOT (Démontrer sa motivation).
+                    </p>
+                  </div>
+                  <div class="info">
+                    <h3>Infos</h3>
+                    <ul>
+                      <li>Platforme - <span>Github</span></li>
+                      <li>Outils - <span>C# Forms</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item details end -->
+            </div>
+          </div>
+          <!-- portfolio item end -->
+          <!-- portfolio item start -->
+          <div class="portfolio-item" data-category="application web">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-img">
+                <img
+                  src="./images/portfolio/thumb/project-3.png"
+                  alt=""
+                  data-screenshots="./images/portfolio/thumb/project-3.png"
+                />
+                <!-- view project btn -->
+                <span class="view-project">Voir le projet</span>
+              </div>
+              <p class="portfolio-item-title">Portfoliov2 <span>@EkluSam</span></p>
+              <!-- portfolio item details start -->
+              <div class="portfolio-item-details">
+                <div class="row">
+                  <div class="description">
+                    <h3>Résumé :</h3>
+                    <p>
+                      Mon Portfolio personnel :<br>
+                      Deuxième version de mon portfolio.
+                    </p>
+                  </div>
+                  <div class="info">
+                    <h3>Infos</h3>
+                    <ul>
+                      <li>Platforme - <span>Github Page</span></li>
+                      <li>
+                        Outils - <span>html, css,javascript</span>
+                      </li>
+                      <li>
+                        Page -
+                        <span
+                          ><a
+                            href="https://EkluSam.github.io/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Lien</a
+                          ></span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item details end -->
+            </div>
+          </div>
+          <!-- portfolio item end -->
+          <!-- portfolio item start -->
+          <div class="portfolio-item" data-category="application">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-img">
+                <img
+                  src="./images/portfolio/thumb/project-4.jpg"
+                  alt=""
+                  data-screenshots="./images/portfolio/thumb/project-4.jpg"
+                />
+                <!-- view project btn -->
+                <span class="view-project">Voir le projet</span>
+              </div>
+              <p class="portfolio-item-title">
+                Space Invader! <span>@ETML</span>
+              </p>
+              <!-- portfolio item details start -->
+              <div class="portfolio-item-details">
+                <div class="row">
+                  <div class="description">
+                    <h3>Résumé :</h3>
+                    <p>
+                      Projet réalisé à ETML.
+                      Créé pendant ma 2ème année d'apprentissage, dans le cadre d'un projet Dev.
+                    </p>
+                  </div>
+                  <div class="info">
+                    <h3>Infos</h3>
+                    <ul>
+                      <li>Platforme - <span>Github</span></li>
+                      <li>
+                        Outils -
+                        <span>C# - UML - Userstories</span>
+                      </li>
+                      <li>
+                        Page -
+                        <span
+                          ><a
+                            href="https://github.com/EkluSam/Projet-P_dev"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Lien</a
+                          ></span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item details end -->
+            </div>
+          </div>
+          <!-- portfolio item end -->
+          <!-- portfolio item start -->
+          <div class="portfolio-item" data-category="script remoting">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-img">
+                <img
+                  src="./images/portfolio/thumb/project-8.jpg"
+                  alt=""
+                  data-screenshots="./images/portfolio/thumb/project-8.jpg"
+                />
+                <!-- view project btn -->
+                <span class="view-project">Voir le projet</span>
+              </div>
+              <p class="portfolio-item-title">
+                Powershell Scripting <span>@ETML</span>
+              </p>
+              <!-- portfolio item details start -->
+              <div class="portfolio-item-details">
+                <div class="row">
+                  <div class="description">
+                    <h3>Résumé :</h3>
+                    <p>
+                      Projet réalisé à ETML.
+                      Créer des scripts automatisés qui utilisent du remoting.
+                    </p>
+                  </div>
+                  <div class="info">
+                    <h3>Infos</h3>
+                    <ul>
+                      <li>Outils - <span>Powershell, VirtualBox</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item details end -->
+            </div>
+          </div>
+          <!-- portfolio item end -->
+          <!-- portfolio item start -->
+          <div class="portfolio-item" data-category="infrastructure réseau">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-img">
+                <img
+                  src="./images/portfolio/thumb/project-5.png"
+                  alt=""
+                  data-screenshots="./images/portfolio/thumb/project-5.png"
+                />
+                <!-- view project btn -->
+                <span class="view-project">Voir le projet</span>
+              </div>
+              <p class="portfolio-item-title">
+                Infrastucture Réseau <span>@ETML</span>
+              </p>
+              <!-- portfolio item details start -->
+              <div class="portfolio-item-details">
+                <div class="row">
+                  <div class="description">
+                    <h3>Résumé :</h3>
+                    <p>
+                      Projet réalisé à ETML.
+                      Monter une infrastructure incluant : 
+                      Serveur Windows 2022, Serveur de fichier Debian avec des
+                      clients Windows, Ubuntu, Fedora.
+                    </p>
+                  </div>
+                  <div class="info">
+                    <h3>Infos</h3>
+                    <ul>
+                      <li>Outils - <span>Windows Server, VirtualBox, Debian, Ubuntu</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item details end -->
+            </div>
+          </div>
+          <!-- portfolio item end -->
+          <!-- portfolio item start -->
+          <div class="portfolio-item" data-category="application">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-img">
+                <img
+                  src="./images/portfolio/thumb/project-6.jpg"
+                  alt=""
+                  data-screenshots="./images/portfolio/thumb/project-6.jpg"
+                />
+                <!-- view project btn -->
+                <span class="view-project">Voir le projet</span>
+              </div>
+              <p class="portfolio-item-title">
+                Knight's move challenge <span>@ETML</span>
+              </p>
+              <!-- portfolio item details start -->
+              <div class="portfolio-item-details">
+                <div class="row">
+                  <div class="description">
+                    <h3>Résumé :</h3>
+                    <p>
+                      Projet réalisé à l'ETML.
+                      Créer le jeu du cavalier une fois en C# Console et une autre fois en C# Forms.
+                      Règles du jeu : 
+                      L'objectif est de remplir le plateau en utilisant des mouvements de chevalier.
+                      Les chevaliers (aux échecs) se déplacent en L.
+                    </p>
+                  </div>
+                  <div class="info">
+                    <h3>Infos</h3>
+                    <ul>
+                      <li>
+                        Outils - <span>C# (Console & forms), Visual Studio</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item details end -->
+            </div>
+          </div>
+          <!-- portfolio item end -->
+          <!-- portfolio item start -->
+          <div class="portfolio-item" data-category="virtualisation">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-img">
+                <img
+                  src="./images/portfolio/thumb/project-7.jpg"
+                  alt=""
+                  data-screenshots="./images/portfolio/thumb/project-7.jpg"
+                />
+                <!-- view project btn -->
+                <span class="view-project">Voir le projet</span>
+              </div>
+              <p class="portfolio-item-title">
+                Virtualisation VMWare<span>@ETML</span>
+              </p>
+              <!-- portfolio item details start -->
+              <div class="portfolio-item-details">
+                <div class="row">
+                  <div class="description">
+                    <h3>Résumé :</h3>
+                    <p>
+                      Projet réalisé à l'ETML.
+                      Virtualiser une infrastructure informatique sur VMWare
+                    </p>
+                  </div>
+                  <div class="info">
+                    <h3>Infos</h3>
+                    <ul>
+                      <li>Outils - <span>VMWare, Serveurs ESXi</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item details end -->
+            </div>
+          </div>
+          <!-- portfolio item end -->
+        </div>
+        <!-- portfolio items end -->
+      </div>
+    </section>
+    <!-- portfolio section end-->
+
+    <!-- testimonial section start utile dans le futur ? -->
+    <section class="testimonial-section section" id="testimonial">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-heading="testimonial">D'après eux</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="testi-box">
+            <div class="testi-slider outer-shadow">
+              <div class="testi-slider-container">
+                <!-- testi item start -->
+                <div class="testi-item active">
+                  <i class="fas fa-quote-left left"></i>
+                  <i class="fas fa-quote-right right"></i>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium odio consectetur tempore cum iste ratione,
+                    quisquam eligendi amet obcaecati placeat.
+                  </p>
+                  <img src="./images/testimonial/pic1.jpg" alt="" />
+                  <span>Ansh Bhalodiya</span>
+                </div>
+                <!-- testi item end -->
+                <!-- testi item start -->
+                <div class="testi-item">
+                  <i class="fas fa-quote-left left"></i>
+                  <i class="fas fa-quote-right right"></i>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium odio consectetur tempore cum iste ratione,
+                    quisquam eligendi amet obcaecati placeat.
+                  </p>
+                  <img src="./images/testimonial/pic2.jpg" alt="" />
+                  <span>Rahil Kalola</span>
+                </div>
+                <!-- testi item end -->
+                <!-- testi item start -->
+                <div class="testi-item">
+                  <i class="fas fa-quote-left left"></i>
+                  <i class="fas fa-quote-right right"></i>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium odio consectetur tempore cum iste ratione,
+                    quisquam eligendi amet obcaecati placeat.
+                  </p>
+                  <img src="./images/testimonial/pic3.jpg" alt="" />
+                  <span>Yash Ramoliya</span>
+                </div>
+                <!-- testi item end -->
+              </div>
+            </div>
+            <div class="testi-slider-nav">
+              <span class="prev outer-shadow hover-in-shadow"
+                ><i class="fas fa-angle-left"></i
+              ></span>
+              <span class="next outer-shadow hover-in-shadow"
+                ><i class="fas fa-angle-right"></i
+              ></span>
+            </div>
           </div>
         </div>
       </div>
-    </section> 
-    <script src="src/js/script.js"></script>
+    </section>
+
+    <!-- testimonial section end -->
+
+    <!-- contact section start -->
+
+    <section class="contact-section section" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-heading="contact"></h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- contact item start -->
+          <div class="contact-item">
+            <div class="contact-item-inner outer-shadow">
+              <i class="fas fa-arrow-right"></i>
+              <span><i class="fas fa-arrow-right"></i></span>
+              <p><i class="fas fa-arrow-right"></i></p>
+            </div>
+          </div>
+          <!-- contact item end -->
+          <!-- contact item start -->
+          <div class="contact-item">
+            <div class="contact-item-inner outer-shadow">
+              <i class="fas fa-envelope"></i>
+              <span>Email</span>
+              <p>samuel.eklu@outlook.fr</p>
+            </div>
+          </div>
+          <!-- contact item end -->
+          <!-- contact item start -->
+          <div class="contact-item">
+            <div class="contact-item-inner outer-shadow">
+              <i class="fas fa-arrow-left"></i>
+              <span><i class="fas fa-arrow-left"></i></span>
+              <p><i class="fas fa-arrow-left"></i></p>
+            </div>
+          </div>
+          <!-- contact item end -->
+        </div>
+       
+      </div>
+    </section>
+
+    <!-- contact section end -->
+    <!-- portfolio pop up start -->
+    <div class="pp portfolio-popup">
+      <div class="pp-details">
+        <div class="pp-details-inner">
+          <div class="pp-title">
+            <h2>personal-portfolio</h2>
+            <p>
+              Catégorie -
+              <span class="pp-project-category">Application Web</span>
+            </p>
+          </div>
+          <div class="pp-project-details">
+            <div class="row">
+              <div class="description">
+                <h3>Résumé :</h3>
+                <p>
+                  La deuxième version de mon portfolio
+                </p>
+              </div>
+              <div class="info">
+                <h3>Infos</h3>
+                <ul>
+                  <li>Outils - <span>html, css, javascript</span></li>
+                  <li>
+                    Web - <span><a href="#">EkluSam.github.io</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="separator"></div>
+
+      <div class="pp-main">
+        <div class="pp-main-inner">
+          <div class="pp-project-details-btn outer-shadow hover-in-shadow">
+            Détails <i class="fas fa-plus"></i>
+          </div>
+          <div class="pp-close outer-shadow hover-in-shadow">&times;</div>
+          <img
+            src=""
+            alt=""
+            class="pp-img outer-shadow"
+          />
+          <div class="pp-counter">1 of 6</div>
+        </div>
+        <div class="pp-loader">
+          <div></div>
+        </div>
+        <!-- pp navigation -->
+        <div class="pp-prev"><i class="fas fa-play"></i></div>
+        <div class="pp-next"><i class="fas fa-play"></i></div>
+      </div>
+    </div>
+
+    <!-- portfolio pop up end -->
+    <!-- style switcher start -->
+
+    <div class="style-switcher outer-shadow">
+      <div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <div class="day-night s-icon outer-shadow hover-in-shadow">
+        <i class="fas"></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+    </div>
+
+    <!-- style switcher end -->
+
+    <script
+      src="https://kit.fontawesome.com/68f941b034.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- gsap plugins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    <!-- main js file -->
+    <script src="./javascript/main.js"></script>
+    <!-- style switcher file -->
+    <script src="./javascript/style-switcher.js"></script>
   </body>
 </html>
