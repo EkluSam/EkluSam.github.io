@@ -777,7 +777,8 @@ img {
   margin: 0 0 20px;
 }
 .about-section .skills .skill-item p {
-  font-size: 16px;
+  font-size: 19px;
+  text-align: center;
   color: var(--text-black-600);
   margin: 0 0 10px;
   text-transform: capitalize;
@@ -788,7 +789,7 @@ img {
   position: relative;
 }
 .about-section .skills .skill-item .progress-bar {
-  height: 6px;
+  height: 2px;
   background-color: var(--text-black-600);
   left: 7px;
   top: 7px;
@@ -1398,13 +1399,12 @@ img {
   margin: 15px 0 10px;
   text-transform: capitalize;
 }
-.contact-section .contact-item-inner p {
+.contact-section .contact-item-inner a {
   font-size: 16px;
   color: var(--text-black-600);
   line-height: 26px;
   margin: 0;
   word-break: break-word;
-  text-transform: capitalize;
 }
 .contact-section .contact-form {
   flex: 0 0 100%;
