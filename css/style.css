@@ -781,7 +781,7 @@ img {
   text-align: center;
   color: var(--text-black-600);
   margin: 0 0 10px;
-  text-transform: capitalize;
+  
 }
 .about-section .skills .skill-item .progress {
   height: 20px;
